@@ -1,0 +1,7 @@
+array = ['first', 'second', '3', 'sun']
+newArray = []
+i = 0
+while i<len(array):
+    if len(array[i]) <= 3:
+        newArray.append(array[i])
+    i+=1
